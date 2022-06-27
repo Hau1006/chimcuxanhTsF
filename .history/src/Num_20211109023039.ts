@@ -14,8 +14,8 @@ export class Num {
     return this
   }
 
-  toString(): void {
-    console.log("hahahahahaah")
+  toString(): string {
+    return this.val().toString()
   }
 
   static addAll(numArr: Array<Num>): Num {
